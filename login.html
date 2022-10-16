@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,29 @@
   <link rel="stylesheet" href="styles.css">
   <title>Login</title>
 </head>
+
 <body>
-  <form action="">
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email" aria-required="true">
-
-    <label for="password">Password</label>
-    <input type="password" name="password" id="password" aria-required="true">
-
-    <input type="submit" value="Login" class="submit">
-  </form>
+  <div class="reg-container">
+    <div class="flex1">
+      <h1 class="header login-header">Continue where you left off</h1>
+    </div>
+    <div class="flex2 login-div">
+      <form action="/success.html">
+        <div class="formgroup">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+    
+        <div class="formgroup">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" pattern="[A-Za-z0-9]{8" title="At least one Letter and Number and 8 characters long" required>
+        </div>
+    
+        <a href="success.html"><input type="submit" value="Login" class="btn"></a>
+        <p>Not a member? please <a href="/registration.html">Register</a></p>
+      </form>
+    </div>
+  </div>
 </body>
+
 </html>

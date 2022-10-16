@@ -1,0 +1,100 @@
+/* Fonts import */
+@import url();
+
+
+/* ===================================================== */
+/* Registration Page Styles */
+/* ===================================================== */
+
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.reg-container{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  background-image: url(/images/slide_2.jpg);
+  background-size: cover;
+  height: 680px;
+}
+.reg-container > div{
+  width: 50%;
+}
+
+.header{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 80px;
+  margin-left: 80px;
+  padding-top: 200px;
+  color: #ebf4fc;
+}
+form{
+  background-color: #f0f8ff;
+  padding: 20px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  opacity: .7;
+}
+
+.form-group{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+input{
+  height: 30px;
+  width: 100%;
+  margin-top: 3px;
+}
+
+textarea{
+  min-width: 100%;
+}
+
+.btn{
+  height: 40px;
+  color: #ebf4fc;
+  font-size: 20px;
+  background-color: #4747c2;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.btn:hover{
+  background-color: #1f1fa8;
+}
+/* ========================================
+Login Page
+===========================================
+ */
+
+ .login{
+  margin-top: -50px;
+  width: 100vw;
+  background-image: url(/images/slide_2.jpg);
+  background-size: cover;
+  height: 680px;
+ }
+ .login-div{
+  margin-top: 150px;
+ }
+
+ .login-header{
+  margin-top: -10px;
+ }
+
+ /* =========================================
+ Success Page
+ ============================================
+ */
+
+ .container-success{
+  background-image: url(/images/slide_2.jpg);
+  width: 100vh;
+ }
